@@ -1,0 +1,46 @@
+header {
+  background-color: white;
+  font-size: 40px;
+
+}
+
+header img {
+  width: 8%;
+}
+.top-div {
+  background-color: #ed4010;
+  color: white;
+}
+
+.top-div img {
+  width: 50%;
+}
+
+.funny-sneakers {
+  background-color: #ed4010;
+}
+
+.funny-sneakers img {
+  width: 40%;
+}
+
+h2 {
+  color: #59281a;
+  font-style: bold;
+}
+
+.main-body {
+  font-size: 10px;
+  color: #59281a;
+}
+
+.reccomended-shoes-sections {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 10px;
+}
+footer img {
+  width: 8%;
+}
