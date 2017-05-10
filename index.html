@@ -2,73 +2,111 @@
 <html>
   <head>
     <title>Quick Sneakers</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel|PT+Sans+Narrow:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header>
       <img src="./images/logo.jpg">
+      <ul class="header-list">
+        <li><a href="www.google.com">MEN</a></li>
+        <li><a href="www.google.com">WOMEN</a></li>
+        <li><a href="www.google.com">BOYS</a></li>
+        <li><a href="www.google.com">GIRLS</a></li>
+        <li><a href="www.google.com">CUSTOMIZE</a></li>
+      </ul>
+      <ul class="header-list">
+        <li><a href="www.google.com">Help</a></li>
+        <li><a href="www.google.com">My Account</a></li>
+        <li><a href="www.google.com"><img src="./images/cart.jpg">Shopping Cart(2)</a></li>
+      </ul>
     </header>
-      <div class="top-div">
-        <a href="https://www.google.com">back to all shoes</a>
-        <img src="./images/shoe1.png">
+      <section class="top-div">
+        ←
+        <a href="https://www.google.com">BACK TO ALL SHOES</a>
+        <img id="sneaker-image" src="./images/shoe1.png">
         <h1>
           Quick Sneakers
         </h1>
-        <p>
+        <span class="spring-summer"> SPRING/SUMMER 2017 </SPAN>
+        <p class="review">
           Some words about reviews, you should read em.
           <a href="https://www.google.com"> Read the Reviews </a>
         </p>
-        <p>
+        <span>
         $120
+        </span>
+        <a id="buy-now" href="https://www.google.com"> Buy Now! </a>
         </p>
-        <a href="https://www.google.com"> Buy Now! </a>
-        </p>
-      </div>
-      <div>
-        <section>
+      </section>
+      <div class="main-content">
+        <section class="content-tabs">
+          <ul id="tabs">
+            <li>Product Details</li>
+            <li>Size & Fit</li>
+            <li>Reviews</li>
+          </ul>
+        </section>
+        <section class="main-body">
           <h2> Exciting Topic </h2>
-          <p class="main-body">
+          <p>
             Stuff about said topic.....
           </p>
+          <h3> Exciting Topic </h3>
+          <p>
+            Stuff about said topic...
+          </p>
         </section>
-        <section>
+        <section  class="main-body">
           <h2> Find Your Shoe Size and Fit </h2>
-          <p class="main-body">
+          <p>
             Here's some content about that.
           </p>
         </section>
-        <section>
+        <section  class="main-body">
           <h2>Here's What our Customers are saying!</h2>
-          <p class="main-body">Don't Take our word for it. Read what our customers have been saying about this product! We hope you wont be disapointed in your purchase.
+          <p>Don't Take our word for it. Read what our customers have been saying about this product! We hope you wont be disapointed in your purchase.
           </p>
         </section>
       </div>
-      <div class="funny-sneakers">
-        <section>
-          <h2>Shop Reccomended Shoes</h2>
-        </section>
-        <section class="reccomended-shoes-sections">
+      <div class="funny-sneakers-h2-div">
+        <h2>Shop Reccomended Shoes</h2>
+      </div>
+      <section class="funny-sneakers">
+        <div class="reccomended-shoes-sections">
           <img src="./images/shoe2.png">
           <h6>Funny Sneakers</h6>
-          <a href="https://www.google.com">$120</a>
-        </section>
-        <section class="reccomended-shoes-sections">
+          <span class="spring-summer"> SPRING/SUMMER 2017 </SPAN>
+          <a href="https://www.google.com">$120.00</a>
+        </div>
+        <div class="reccomended-shoes-sections">
           <img src="./images/shoe3.png">
-          <h6>Funny Sneakers</h6>
-          <a href="https://www.google.com">$120</a>
-        </section>
-        <section class="reccomended-shoes-sections">
+          <h6>Nimble Sneakers</h6>
+          <span class="spring-summer"> SPRING/SUMMER 2017 </SPAN>
+          <a href="https://www.google.com">$120.00</a>
+        </div>
+        <div class="reccomended-shoes-sections">
           <img src="./images/shoe4.png">
-          <h6>Funny Sneakers</h6>
-          <a href="https://www.google.com">$120</a>
-        </section>
-      </div>
+          <h6>Cute Sneakers</h6>
+          <span class="spring-summer"> SPRING/SUMMER 2017 </SPAN>
+          <a href="https://www.google.com">$120.00</a>
+        </div>
+      </section>
 
-      <footer>
+      <footer class="footer-list">
         <img src="./images/logo.jpg">
-        <a href="https://www.google.com">Shipping</a>
-        <a href="https://www.google.com">Terms and Conditions</a>
-        &copy; Copyright 2017. SneakerShop, LLC.
+        <ul>
+          <li><a href="www.google.com">MEN</a></li>
+          <li><a href="www.google.com">WOMEN</a></li>
+          <li><a href="www.google.com">BOYS</a></li>
+          <li><a href="www.google.com">GIRLS</a></li>
+          <li><a href="www.google.com">CUSTOMIZE</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.google.com">Shipping</a></li>
+          <li><a href="https://www.google.com">Terms and Conditions</a></li>
+          <li>&copy; Copyright 2017. SneakerShop, LLC.</li>
+        </ul>
       </footer>
     </body>
 </html>

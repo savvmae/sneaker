@@ -1,46 +1,242 @@
+body {
+  margin:0px;
+}
 header {
   background-color: white;
-  font-size: 40px;
+  font-size: 15px;
+  height:100px;
+  margin-top: 20px;
 
+}
+.header-list  {
+  font-family: PT Sans Narrow, sans-serif;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  height: 20px;
+}
+
+li {
+  padding:10px;
+}
+.header-list li {
+  display: inline-block;
+  font-family: sans-serif;
+  color: #ea7c70;
+  font-size: 16px;
+  text-decoration: underline;
+  padding-left: 0px;
+}
+
+.header-list li a {
+  display: inline-block;
+  font-family: sans-serif;
+  color: #ea7c70;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.header-list li img {
+  width: 13%;
+  padding-right:5px;
 }
 
 header img {
-  width: 8%;
+  padding-left: 10px;
+  width: 50px;
 }
 .top-div {
-  background-color: #ed4010;
+  background-color:#e53d10;
   color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  display: run-in;
+  padding-left: 200px;
+  font-family: PT Sans Narrow, sans-serif;
+  padding-bottom: 30px;
+  padding-top: 40px;
+
+}
+.top-div a {
+  margin-top: 40px;
+  color: white;
+  text-decoration: none;
+}
+#sneaker-image {
+  height: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  display:block;
+
+}
+H1 {
+  font-size: 60px;
+  margin-bottom: 5px;
 }
 
-.top-div img {
-  width: 50%;
-}
+.spring-summer {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color:#4f120b;
+  font-size: 15px;
 
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+.review {
+  border-top: 3px dashed #4f120b;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 3px dashed #4f120b;
+  width:50%;
+}
+.review a {
+  text-decoration: underline;
+  color:#4f120b;
+}
+#buy-now {
+    border-radius: 25px;
+    background: white;
+    padding: 10px;
+    width: 100px;
+    height: 75px;
+    color: #e53d10;
+}
+.main-content {
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  margin-left: 0px;
+  display: run-in;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: Abel, sans-serif;
+}
+.content-tabs li {
+  font-family: PT Sans Narrow, sans-serif;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  height: 20px;
+  display:inline-block;
+  color:#ea7c70;
+  text-align: left;
+
+}
+.content-tabs {
+
+  border-bottom: solid 5px #ea7c70;
+}
+#tabs {
+  text-align: left;
+  padding-left: 0px;
+}
 .funny-sneakers {
-  background-color: #ed4010;
+  background-color: #e53d10;
+  margin-top: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  display: run-in;
+  padding-left: 200px;
+  padding-bottom: 50px;
 }
 
 .funny-sneakers img {
-  width: 40%;
+  height:300px;
 }
 
-h2 {
-  color: #59281a;
+.main-body h2 {
+  color: brown;
   font-style: bold;
 }
 
-.main-body {
-  font-size: 10px;
-  color: #59281a;
+h3 {
+  color: brown;
+  font-style: bold;
+}
+
+.main-body p {
+  font-size: 14px;
+  color: brown;
+  font-family: Abel, sans-serif;
+}
+.funny-sneakers-h2-div {
+  padding-left: 0;
+  text-align: center;
+  background-color: #f7c2bb;
+  color: brown;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: Abel, sans-serif;
+  font-weight: 500;
+}
+.funny-sneakers-h2-div h2 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-weight: 200;
 }
 
 .reccomended-shoes-sections {
-  text-decoration: underline;
+  padding-top: 50px;
+}
+.reccomended-shoes-sections h6 {
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: PT Sans Narrow, sans-serif;
+}
+.reccomended-shoes-sections a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  font-family: Abel, sans-serif;
 }
 
-footer {
-  font-size: 10px;
+.footer-list  {
+  font-family: PT Sans Narrow, sans-serif;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  height: 20px;
 }
+
+.footer-list li {
+  display: inline-block;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+footer {
+  margin-top: 10px;
+  font-size: 15px;
+}
+footer ul {
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.footer-list a {
+    display: inline-block;
+    font-family: sans-serif;
+    color: #ea7c70;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
 footer img {
-  width: 8%;
+  padding-left: 20px;
+  width: 50px;
 }
