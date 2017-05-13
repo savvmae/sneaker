@@ -1,242 +1,246 @@
+/********************************
+    OVERALL
+*********************************/
 body {
-  margin:0px;
+  margin:0;
 }
-header {
-  background-color: white;
-  font-size: 15px;
-  height:100px;
-  margin-top: 20px;
-
-}
-.header-list  {
-  font-family: PT Sans Narrow, sans-serif;
-  margin: 0px;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  height: 20px;
-}
-
-li {
-  padding:10px;
-}
-.header-list li {
-  display: inline-block;
-  font-family: sans-serif;
-  color: #ea7c70;
-  font-size: 16px;
-  text-decoration: underline;
-  padding-left: 0px;
-}
-
-.header-list li a {
-  display: inline-block;
-  font-family: sans-serif;
-  color: #ea7c70;
-  font-size: 16px;
-  text-decoration: underline;
-}
-.header-list li img {
-  width: 13%;
-  padding-right:5px;
-}
-
-header img {
-  padding-left: 10px;
-  width: 50px;
-}
-.top-div {
-  background-color:#e53d10;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 0px;
-  padding: 0px;
-  margin-left: 0px;
-  display: run-in;
-  padding-left: 200px;
-  font-family: PT Sans Narrow, sans-serif;
-  padding-bottom: 30px;
-  padding-top: 40px;
-
-}
-.top-div a {
-  margin-top: 40px;
-  color: white;
-  text-decoration: none;
-}
-#sneaker-image {
-  height: 300px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 0px;
-  display:block;
-
-}
-H1 {
-  font-size: 60px;
-  margin-bottom: 5px;
-}
-
 .spring-summer {
   margin-top: 5px;
   margin-bottom: 20px;
-  color:#4f120b;
+  color:#59493a;
   font-size: 15px;
-
   padding-bottom: 20px;
   width: 100%;
-  text-align: right;
+  float: left;
+}
+/********************************
+    HEADER
+*********************************/
+.top-header li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+.second a img {
+  width: 14%;
+  padding-top: 0px;
+}
+.top-header a {
+  font-family: sans-serif;
+  color: #ea7c70;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.first  {
+  float: left;
+  padding-left: 10px;
+}
+.second  {
+  float: right;
+}
+.top-header img {
+  float: left;
+  width: 4%;
+  padding-top: 20px;
+}
+.top-header {
+  overflow: auto;
+  zoom: 1;
+  margin-bottom: 0px;
+}
+
+/********************************
+    First section
+*********************************/
+.first-section {
+  overflow: auto;
+  zoom: 1;
+  background: linear-gradient(-90deg, #EB670A,  #E5008C);
+  padding-bottom: 40px;
+}
+#back-to {
+  color: white;
+  margin: 25px 40px;
+}
+#back-to a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.first-shoe-image {
+  float:left;
+  max-width: 45%;
+  margin: 25px 40px;
+}
+.first-shoe-image img {
+  margin-left: 40px;
+  max-width: 100%;
+}
+.quick-sneakers {
+  float:right;
+  width: 45%;
+  display:inline-block;
+}
+.quick-sneakers h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Abel, sans-serif;
+  margin-top: 70px;
+  margin-bottom: 0px
 }
 .review {
-  border-top: 3px dashed #4f120b;
-  margin-top: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: 3px dashed #4f120b;
-  width:50%;
+  border-top: 3px dashed #96795e;
+  border-bottom: 3px dashed #96795e;
+  padding: 20px 0px;
+  margin: 30px 0px;
+  color: white;
+  line-height: 3em;
+  font-family: Abel, sans-serif;
 }
 .review a {
-  text-decoration: underline;
-  color:#4f120b;
+  color:#59493a;
+  float: right;
+  margin-right: 5px;
 }
 #buy-now {
-    border-radius: 25px;
+    border-radius: 50px;
     background: white;
     padding: 10px;
-    width: 100px;
-    height: 75px;
     color: #e53d10;
+    font-family: Abel, sans-serif;
 }
-.main-content {
-  margin-top:20px;
-  margin-bottom: 20px;
-  padding: 0px;
-  margin-left: 0px;
-  display: run-in;
-  padding-left: 200px;
-  padding-right: 200px;
+.price-buy {
+  margin: 10px 0px;
+  color: white;
+  padding: 20px 0px;
+}
+.price-buy span {
+  font-size: 30px;
+  padding-right: 20px;
   font-family: Abel, sans-serif;
+}
+
+/*******************
+CONTENT TABS
+******************/
+.content-tabs {
+  margin: 40px;
+  border-bottom: 3px solid orange;
 }
 .content-tabs li {
   font-family: PT Sans Narrow, sans-serif;
+  font-size: 25px;
   margin: 0px;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding: 0px 10px 10px 0px;
   height: 20px;
   display:inline-block;
   color:#ea7c70;
   text-align: left;
-
 }
-.content-tabs {
-
-  border-bottom: solid 5px #ea7c70;
-}
-#tabs {
-  text-align: left;
+.content-tabs ul {
   padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
-.funny-sneakers {
-  background-color: #e53d10;
-  margin-top: 0px;
-  padding: 0px;
-  margin-left: 0px;
-  display: run-in;
-  padding-left: 200px;
-  padding-bottom: 50px;
+#reviews-tab {
+  float: right;
+  font-size: 16px;
 }
-
-.funny-sneakers img {
-  height:300px;
-}
-
-.main-body h2 {
-  color: brown;
+/**********************
+MAIN BODY
+***********************/
+.main-body-headers {
+  color:#59493a;
   font-style: bold;
+  margin: 35px 10px 5px 40px;
 }
-
-h3 {
-  color: brown;
-  font-style: bold;
-}
-
-.main-body p {
-  font-size: 14px;
-  color: brown;
+.main-body-p {
+  font-size: 18px;
+  color: #313335;
   font-family: Abel, sans-serif;
+  margin: 20px 40px 20px 40px;
+  line-height: 3em;
 }
-.funny-sneakers-h2-div {
-  padding-left: 0;
+/*************************
+RECCOMENDED SHOES
+**************************/
+.Shop-Reccomended-Header {
   text-align: center;
   background-color: #f7c2bb;
   color: brown;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 15px;
   font-family: Abel, sans-serif;
   font-weight: 500;
+  padding: 1.5em;
+  margin: 0px;
 }
-.funny-sneakers-h2-div h2 {
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-  font-weight: 200;
-}
-
-.reccomended-shoes-sections {
-  padding-top: 50px;
-}
-.reccomended-shoes-sections h6 {
+.sneakers h6 {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 200;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: PT Sans Narrow, sans-serif;
-}
-.reccomended-shoes-sections a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-  padding-top: 15px;
-  font-family: Abel, sans-serif;
-}
-
-.footer-list  {
   font-family: PT Sans Narrow, sans-serif;
   margin: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  height: 20px;
+  float: left;
 }
+.sneakers a {
+  float: right;
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: PT Sans Narrow, sans-serif;
+  padding-right: 80px;
+  text-decoration: none;
 
-.footer-list li {
-  display: inline-block;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
-footer {
-  margin-top: 10px;
-  font-size: 15px;
+.types-of-sneakers-container {
+  float:left;
+  width: 33%;
 }
-footer ul {
+.types-of-sneakers-container img {
+  width: 78%;
+  padding-top: 20px;
+}
+.sneakers {
+  padding: 70px;
+  overflow: auto;
+  zoom:1;
+  background: linear-gradient(-90deg, #EB670A,  #E5008C);
+}
+.types-of-sneakers-container img {
+  max-width: 100%;
+}
+/***************************
+FOOTER
+***************************/
+.bottom-footer {
+  overflow: auto;
+  zoom: 1;
+  margin: 15px 0px;
+}
+#first-ul {
+  float: left;
   padding-left: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
-.footer-list a {
-    display: inline-block;
-    font-family: sans-serif;
-    color: #ea7c70;
-    font-size: 16px;
-    text-decoration: underline;
-    padding-left: 10px;
+#first-ul li {
+  padding-left: 10px;
 }
-
-footer img {
-  padding-left: 20px;
-  width: 50px;
+#second-ul {
+  padding-left: 0px;
+  float: right;
+  color:#59493a;
+}
+#second-ul a {
+  color:#59493a;
+}
+.bottom-footer li {
+  display: inline-block;
+}
+.bottom-footer img {
+  float: left;
+  width: 4%;
+  padding-top: 10px;
+}
+.bottom-footer a {
+  font-family: sans-serif;
+  color: #ea7c70;
+  font-size: 14px;
+  text-decoration: underline;
 }
