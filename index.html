@@ -18,7 +18,8 @@
       <ul class="second">
         <li><a href="www.google.com">Help</a></li>
         <li><a href="www.google.com">My Account</a></li>
-        <li><a href="www.google.com"><img src="./images/cart.jpg">Shopping Cart(2)</a></li>
+        <li id="cart-image-li"><img id="cart-image" src="./images/cart.jpg"></li>
+        <li id="cart">Shopping Cart(0)</li>
       </ul>
     </header>
       <section class ="first-section">
@@ -41,7 +42,7 @@
               <span>
                 $120
               </span>
-              <a id="buy-now" href="https://www.google.com"> Buy Now! </a>
+              <button id="buy-now"> Buy Now! </button>
             </div>
           </div>
 
@@ -49,27 +50,16 @@
       <section>
         <div class="content-tabs">
           <ul>
-            <li>Product Details</li>
-            <li>Size & Fit</li>
-            <li id="reviews-tab">Reviews &#9733;&#9733;&#9733;&#9733;&#9734;</li>
+            <li class="tab" id="PD">Product Details</li>
+            <li class="tab" id="SF">Size & Fit</li>
+            <li class="tab" id="reviews-tab">Reviews &#9733;&#9733;&#9733;&#9733;&#9734;</li>
           </ul>
         </div>
-        <div>
-          <h2 class="main-body-headers"> Exciting Topic </h2>
-          <p class="main-body-p">
-            Stuff about said topic.....
-          </p>
-          <h3 class="main-body-headers"> Exciting Topic </h3>
-          <p class="main-body-p">
-            Stuff about said topic...
-          </p>
-          <h2 class="main-body-headers"> Find Your Shoe Size and Fit </h2>
-          <p class="main-body-p">
-            Here's some content about that.
-          </p>
-          <h2 class="main-body-headers">Here's What our Customers are saying!</h2>
-          <p class="main-body-p">Don't Take our word for it. Read what our customers have been saying about this product! We hope you wont be disapointed in your purchase.
-          </p>
+        <div id='product-details'>
+        </div>
+        <div id='Size-fit'>
+        </div>
+        <div id='customers-saying'>
         </div>
       </section>
       <div>
@@ -110,5 +100,10 @@
           <li>&copy; Copyright 2017. SneakerShop, LLC.</li>
         </ul>
       </footer>
+      <script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+  <script language:"javascript" src="./main.js"></script>
     </body>
 </html>
