@@ -137,11 +137,8 @@ CONTENT TABS
 .content-tabs {
   margin: 40px;
   border-bottom: 3px solid orange;
-  padding-bottom: 5px;
 }
 
-/* Having some trouble with content-tabs class in general and the reviews tab id. i cant find where they are explicity different in bottom  margin/padding/whatever but when i'm adding borders on mouse enter and exit they behave differently. the left most tabs move as border enters and exits however reviews-tab does not and i cannot get the border to line up the same on all three tabs.
-*/
 .content-tabs li {
   font-family: PT Sans Narrow, sans-serif;
   font-size: 25px;
@@ -153,6 +150,7 @@ CONTENT TABS
   text-align: left;
 }
 .content-tabs ul {
+  overflow: auto;
   padding-left: 0px;
   margin-bottom: 0px;
   margin-top: 20px;
